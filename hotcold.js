@@ -1,7 +1,7 @@
 // JavaScript Document
 $("h1").hide().fadeIn(3000);
-$("#guess_sentence").hide().fadeIn(6000);
-$("#guessContainer").hide().fadeIn(10000);
+$("#guess_sentence").hide().fadeIn(5000);
+$("#guessContainer").hide().fadeIn(5000);
 
 //global variables--computer generated guess, and guess log 
 var answer= Math.floor((Math.random() * 100)+1); 
