@@ -28,7 +28,14 @@ $("#submit").click( function(){
 
 
 
-  if (answer === guess){
+   if ( guess == "" || guess == null || guess < 0 || guess = isNaN) {
+   	
+	$("#statement").text("Please input a number from 1 to 100");
+	
+  	}
+  
+   
+  else if (answer === guess){
 
        $("#statement").text("Woo Hoo Right Answer!");
        $("#guessContainer").css("background","#FFCC00");
