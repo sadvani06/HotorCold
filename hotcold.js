@@ -54,35 +54,35 @@ $("#submit").click( function(){
                		$("#statement").text("Ouch! You're hot!");
                    $("#guessContainer").css("background","#c0392b");
                    $("#guessContainer").css("box-shadow","0 0 0 6px #e74c3c, 0 0 0 12px #e67e22");
-                   $("#guess").val();
+                   $("#guess").val('');
                 }
 				
              	else if ( currentDifference >=11 && currentDifference <= 20){
                		$("#statement").text("Warmer");
                    $("#guessContainer").css("background","#c0392b");
                    $("#guessContainer").css("box-shadow","0 0 0 6px #e74c3c, 0 0 0 12px #e67e22");
-                   $("#guess").val();
+                   $("#guess").val('');
                 }
 				
            		else if ( currentDifference >=21 && currentDifference <= 40){
                		$("#statement").text("Warm");
                    $("#guessContainer").css("background","#c0392b");
                    $("#guessContainer").css("box-shadow","0 0 0 6px #e74c3c, 0 0 0 12px #e67e22");
-                   $("#guess").val();
+                   $("#guess").val('');
                 }
 				
             	else if ( currentDifference >=41 && currentDifference <= 50){
                		$("#statement").text("Lukewarm");
                    $("#guessContainer").css("background","#c0392b");
                    $("#guessContainer").css("box-shadow","0 0 0 6px #e74c3c, 0 0 0 12px #e67e22");
-                   $("#guess").val();
+                   $("#guess").val('');
                 }
 				
                 else {
               		$("#statement").text("Brr! You're cold!");
                   $("#guessContainer").css("background","#2980b9");
                   $("#guessContainer").css("box-shadow","0 0 0 6px #3498db, 0 0 0 12px #3498db");
-                  $("#guess").val();
+                  $("#guess").val('');
                 }
 		   }
 		  
@@ -96,14 +96,14 @@ $("#submit").click( function(){
                            $("#statement").text("Warming Up");
                            $("#guessContainer").css("background","#c0392b");
                    		   $("#guessContainer").css("box-shadow","0 0 0 6px #e74c3c, 0 0 0 12px #e67e22");
-                   		   $("#guess").val();
+                   		   $("#guess").val('');
                   }
                            
                 else {
                             $("#statement").text("BRRR...Colder");
                             $("#guessContainer").css("background","#75b9e7");
                             $("#guessContainer").css("box-shadow","0 0 0 6px #3498db, 0 0 0 12px #3498db");
-                            $("#guess").val();
+                            $("#guess").val('');
 				  }
                 
 				}
