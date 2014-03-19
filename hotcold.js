@@ -28,7 +28,7 @@ $("#submit").click( function(){
 
 
 
-   if ( guess == "" || guess == null || guess < 0 || guess = isNaN) {
+   if ( guess == "" || guess == null || guess < 0 ) {
    	
 	$("#statement").text("Please input a number from 1 to 100");
 	
