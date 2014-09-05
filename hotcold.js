@@ -117,7 +117,7 @@ $("#submit").click( function(){
 //restarts a new game
 $("#newGame").click(function(){
 
- 	window.location.href = "http://cdpn.io/leEqf";
+ 	window.location.href = "http://sadvani06.github.com/HotorCold";
  
 }
                     );
